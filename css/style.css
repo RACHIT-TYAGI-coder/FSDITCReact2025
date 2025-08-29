@@ -1,0 +1,49 @@
+/* body{
+    background-color: aqua;
+}
+h2{
+    background-color: navy;
+    color: rgb(223, 218, 228);
+}
+h2,p,h3{
+    background-color: brown;
+    color: black;
+
+}
+    .heading1{
+        background-color: pink;
+        font-weight: 200;
+    } */
+
+
+    div~p{
+        background-color: aquamarine;
+        color: rgb(13, 44, 38);
+    }
+
+    p:hover{
+        background-color: cadetblue;
+        font-size: large;
+        color: chartreuse;
+    }
+
+    p::after{
+        content: "hello";
+        background-color: bisque;
+        color: rgb(91, 15, 27);
+    }
+    p::before{
+        content: "not hello";
+        background-color: rgb(176, 206, 46);
+        color: rgb(213, 23, 54);
+    }
+
+    p::selection{
+        background-color: greenyellow;
+    }
+    p:nth-child(2){
+        background-color: black;
+    }
+    div p:nth-child(1){
+        
+    }
