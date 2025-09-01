@@ -1,0 +1,42 @@
+/* body{
+    background-color: chocolate;
+} */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(239, 225, 227);
+    border: 1px solid rgb(11, 1, 1);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.child1{
+    background-color: rgb(255, 234, 0);
+    border: 1px solid red;
+    height: 300px;
+    width: 300px;
+
+}
+.child2{
+    background-color: rgb(27, 7, 102);
+    border: 1px solid red;
+    height: 300px;
+    width: 300px;
+
+    
+}
+.child3{
+    background-color: rgb(169, 17, 47);
+    border: 1px solid red;
+    height: 300px;
+    width: 300px;
+
+}
+.child4{
+    background-color: rgb(230, 168, 75);
+    border: 1px solid red;
+    height: 300px;
+    width: 300px;
+
+}
