@@ -1,16 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Gallery from './component/gallery'
-
+import './App.css';
+import StateHandling from './components/StateHandling';
+import ImageManipulation from './components/ImageManipulation';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-      <Gallery />
+    <div>
+            <h2>Welcome to React and Vite App</h2>
+            {/* <Gallery/> */}
+            {/* <StateHandling /> */}
+            <ImageManipulation/>
+    </div>
     </>
   )
 }
